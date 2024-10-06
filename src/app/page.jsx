@@ -17,6 +17,9 @@ export default function Home() {
           <Link href="/products">Products</Link>
         </li>
         <li>
+          <Link href="/products/vegis">Vegis</Link>
+        </li>
+        <li>
           <Link href="https://nextjs.org/" target='_blank'>NextJS Site</Link>
         </li>
       </ul>
