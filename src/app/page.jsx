@@ -12,7 +12,7 @@ export default function Home() {
           <Link href="/" className={styles.link}>Home</Link>
         </li>
         <li>
-          <Link href="/about">About</Link>
+          <Link href="/about" className={styles.link}>About</Link>
         </li>
         <li>
           <Link href="/products">Products</Link>
