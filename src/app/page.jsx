@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import styles from './page.module.css';
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <br />
       <ul>
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/" className={styles.link}>Home</Link>
         </li>
         <li>
           <Link href="/about">About</Link>
